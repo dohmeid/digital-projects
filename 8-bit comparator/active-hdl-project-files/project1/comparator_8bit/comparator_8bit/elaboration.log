@@ -1,0 +1,42 @@
+Active-HDL 11.1.262.7351 2021-12-26 19:01:21
+
+Elaboration top modules:
+Architecture                  lookahead_design_testbench(comparator_test)
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Entity                 | Architecture                | Library         | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------
+comparator_test        | lookahead_design_testbench  | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+test_generator         | tg                          | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+signed_comparator_8bit | lookahead_design            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+result_analyzer        | ra                          | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+adder8bit              | look_ahead_adder_subtractor | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+sub_res_comparator     | structural                  | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+and_gate               | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+or_gate                | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+or3_gate               | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+or8_gate               | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+xor_gate               | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+partial_full_adder     | structural                  | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+xor3_gate              | behavioral_delay            | comparator_8bit |      | 11.1.262.7351 (Windows) | -O3
+------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                         | Library         | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------
+standard                                             | std             |      |                         | <unavailable>
+TEXTIO                                               | std             |      |                         | <unavailable>
+std_logic_1164                                       | ieee            |      |                         | <unavailable>
+std_logic_arith                                      | ieee            |      |                         | <unavailable>
+STD_LOGIC_SIGNED                                     | ieee            |      |                         | <unavailable>
+basic_gates_with_delay                               | comparator_8bit |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
+Library                                              | Comment
+------------------------------------------------------------------------------------------------------------------------------
+comparator_8bit                                      | None
+ieee                                                 | Standard IEEE packages library
+std                                                  | Standard VHDL library
+------------------------------------------------------------------------------------------------------------------------------

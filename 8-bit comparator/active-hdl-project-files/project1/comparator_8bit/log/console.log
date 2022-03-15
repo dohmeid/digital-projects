@@ -1,0 +1,2286 @@
+run
+endsim
+# KERNEL: stopped at time: 52030850 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+comparator_test comparator_test magnitudeComparator_design_testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7078 kB (elbread=1280 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  2:46 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+run 50000 ns
+# KERNEL: stopped at time: 53 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7078 kB (elbread=1280 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  2:47 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+run 2000 ns
+# KERNEL: stopped at time: 8 us
+run 70000 ns
+# KERNEL: stopped at time: 78 us
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7078 kB (elbread=1280 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  2:50 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: ERROR  : comparator output is incorrect
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /comparator_test/G3,  Process: line__225.
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+comparator_test comparator_test ripple_design_testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7080 kB (elbread=1280 elab2=5660 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:39 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# 9 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+signed_comparator_8bit signed_comparator_8bit ripple_design
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7077 kB (elbread=1280 elab2=5658 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:40 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /comparator_test/clk not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/TestA not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/TestB not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/Expected_F1 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/Expected_F2 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/Expected_F3 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/actual_F1 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/actual_F2 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /comparator_test/actual_F3 not found in C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb.
+# 8 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7077 kB (elbread=1280 elab2=5658 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:41 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+full_adder full_adder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7069 kB (elbread=1280 elab2=5651 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:43 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# 8 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/n1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/n2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/n3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/x' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/y' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/Cin' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/Cout' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/full_adder/S' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7069 kB (elbread=1280 elab2=5651 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:46 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 70 ns
+# KERNEL: stopped at time: 70 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+signed_comparator_8bit signed_comparator_8bit lookahead_design
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7077 kB (elbread=1280 elab2=5658 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:51 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# 8 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 70 ns
+# KERNEL: stopped at time: 70 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7077 kB (elbread=1280 elab2=5658 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:52 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 70 ns
+# KERNEL: stopped at time: 70 ns
+run 200 ns
+# KERNEL: stopped at time: 270 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7077 kB (elbread=1280 elab2=5658 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  4:53 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0122: file2.vhd : (90, 3): Symbol "G2" has already been declared in this scope.
+# Error: COMP96_0122: file2.vhd : (91, 2): Symbol "G3" has already been declared in this scope.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.5 [s]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+asim -O5 +access +r +m+signed_comparator_8bit signed_comparator_8bit lookahead_design
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7079 kB (elbread=1281 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  5:17 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/c1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/c2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/S' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/A' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/B' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/F1_equal' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/F2_bigger' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/signed_comparator_8bit/F3_smaller' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7079 kB (elbread=1281 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  5:18 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7079 kB (elbread=1281 elab2=5659 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  5:20 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Error: COMP96_0111: file1.vhd : (50, 12): Labels do not match.
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Warning: COMP96_0994: file1.vhd : (52, 1): Multiple architecture "behavioral_delay" of entity "or3_gate" found in "C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd", "C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd".
+# Error: COMP96_0078: file1.vhd : (54, 8): Unknown identifier "x1".
+# Error: COMP96_0078: file1.vhd : (54, 14): Unknown identifier "x2".
+# Error: COMP96_0078: file1.vhd : (54, 20): Unknown identifier "x3".
+# Error: COMP96_0078: file1.vhd : (54, 26): Unknown identifier "x4".
+# Error: COMP96_0078: file1.vhd : (54, 32): Unknown identifier "x5".
+# Error: COMP96_0078: file1.vhd : (54, 38): Unknown identifier "x6".
+# Error: COMP96_0078: file1.vhd : (54, 44): Unknown identifier "x7".
+# Error: COMP96_0078: file1.vhd : (54, 50): Unknown identifier "x8".
+# Error: COMP96_0133: file1.vhd : (54, 50): Cannot find object declaration.
+# Error: COMP96_0133: file1.vhd : (54, 8): Cannot find object declaration.
+# Error: COMP96_0077: file1.vhd : (54, 8): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0015: file2.vhd : (93, 15): ';' expected.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 13 Errors 1 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Error: COMP96_0111: file1.vhd : (50, 12): Labels do not match.
+# Compile Architecture "behavioral_delay" of Entity "or_8gate"
+# Error: COMP96_0056: file1.vhd : (52, 1): Cannot find referenced entity declaration "or_8gate".
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0015: file2.vhd : (93, 15): ';' expected.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_8gate"
+# Error: COMP96_0056: file1.vhd : (52, 1): Cannot find referenced entity declaration "or_8gate".
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0015: file2.vhd : (93, 15): ';' expected.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0015: file2.vhd : (93, 15): ';' expected.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0363: file2.vhd : (116, 1): Component instantiation statement must have a label.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0066: file2.vhd : (93, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (94, 7): Cannot find "or_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (96, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (97, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (98, 7): Cannot find "or3_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (100, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (101, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (102, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0078: file2.vhd : (103, 7): Unknown identifier "or8_gate".
+# Error: COMP96_0066: file2.vhd : (103, 7): Cannot find "or8_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (106, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (107, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (108, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (109, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0078: file2.vhd : (110, 8): Unknown identifier "or8_gate".
+# Error: COMP96_0066: file2.vhd : (110, 8): Cannot find "or8_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (113, 1): Symbol "GC11" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (113, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (114, 1): Symbol "GC12" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (114, 7): Cannot find "or_gate" procedure declaration.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 20 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0066: file2.vhd : (97, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (98, 7): Cannot find "or_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (100, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (101, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (102, 7): Cannot find "or3_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (104, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (105, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (106, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0078: file2.vhd : (107, 7): Unknown identifier "or8_gate".
+# Error: COMP96_0066: file2.vhd : (107, 7): Cannot find "or8_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (110, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (111, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (112, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (113, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0078: file2.vhd : (114, 8): Unknown identifier "or8_gate".
+# Error: COMP96_0066: file2.vhd : (114, 8): Cannot find "or8_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (117, 1): Symbol "GC11" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (117, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (118, 1): Symbol "GC12" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (118, 7): Cannot find "or_gate" procedure declaration.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 20 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0078: file2.vhd : (107, 7): Unknown identifier "or8_gate".
+# Error: COMP96_0134: file2.vhd : (107, 7): Cannot find component declaration.
+# Error: COMP96_0066: file2.vhd : (111, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (112, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0066: file2.vhd : (113, 8): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0078: file2.vhd : (114, 8): Unknown identifier "or8_gate".
+# Error: COMP96_0066: file2.vhd : (114, 8): Cannot find "or8_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (117, 1): Symbol "GC11" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (117, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (118, 1): Symbol "GC12" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (118, 7): Cannot find "or_gate" procedure declaration.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.9 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0078: file2.vhd : (107, 7): Unknown identifier "or8_gate".
+# Error: COMP96_0134: file2.vhd : (107, 7): Cannot find component declaration.
+# Error: COMP96_0078: file2.vhd : (114, 8): Unknown identifier "or8_gate".
+# Error: COMP96_0134: file2.vhd : (114, 8): Cannot find component declaration.
+# Error: COMP96_0122: file2.vhd : (117, 1): Symbol "GC11" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (117, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (118, 1): Symbol "GC12" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (118, 7): Cannot find "or_gate" procedure declaration.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Error: COMP96_0111: basic_gates_with_delay_package.vhd : (42, 16): Labels do not match.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0122: file2.vhd : (117, 1): Symbol "GC11" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (117, 7): Cannot find "and_gate" procedure declaration.
+# Error: COMP96_0122: file2.vhd : (118, 1): Symbol "GC12" has already been declared in this scope.
+# Error: COMP96_0066: file2.vhd : (118, 7): Cannot find "or_gate" procedure declaration.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0122: file2.vhd : (86, 2): Symbol "s" has already been declared in this scope.
+# Error: COMP96_0090: file2.vhd : (93, 65): Expected array type.
+# Error: COMP96_0078: file2.vhd : (125, 35): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (126, 36): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (127, 36): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (128, 35): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (129, 35): Unknown identifier "s62".
+# Error: COMP96_0078: file2.vhd : (130, 36): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (131, 31): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (131, 35): Unknown identifier "s62".
+# Error: COMP96_0078: file2.vhd : (131, 39): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (131, 43): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (131, 47): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (131, 51): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (133, 31): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (134, 31): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (135, 32): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (136, 32): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (137, 31): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (138, 31): Unknown identifier "s62".
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 20 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0078: file2.vhd : (125, 35): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (126, 36): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (127, 36): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (128, 35): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (129, 35): Unknown identifier "s62".
+# Error: COMP96_0078: file2.vhd : (130, 36): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (131, 31): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (131, 35): Unknown identifier "s62".
+# Error: COMP96_0078: file2.vhd : (131, 39): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (131, 43): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (131, 47): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (131, 51): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (133, 31): Unknown identifier "s61".
+# Error: COMP96_0078: file2.vhd : (134, 31): Unknown identifier "s66".
+# Error: COMP96_0078: file2.vhd : (135, 32): Unknown identifier "s65".
+# Error: COMP96_0078: file2.vhd : (136, 32): Unknown identifier "s64".
+# Error: COMP96_0078: file2.vhd : (137, 31): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (138, 31): Unknown identifier "s62".
+# Error: COMP96_0100: file2.vhd : (150, 59): Actual parameter type in port map does not match the type of the formal port 'd'.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 19 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0122: file2.vhd : (86, 2): Symbol "s73" has already been declared in this scope.
+# Error: COMP96_0078: file2.vhd : (128, 35): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (131, 39): Unknown identifier "s63".
+# Error: COMP96_0078: file2.vhd : (137, 31): Unknown identifier "s63".
+# Error: COMP96_0100: file2.vhd : (150, 59): Actual parameter type in port map does not match the type of the formal port 'd'.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 5 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Error: COMP96_0100: file2.vhd : (150, 59): Actual parameter type in port map does not match the type of the formal port 'd'.
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7081 kB (elbread=1281 elab2=5661 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:40 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7081 kB (elbread=1281 elab2=5661 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:42 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7081 kB (elbread=1281 elab2=5661 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:50 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7081 kB (elbread=1281 elab2=5661 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:51 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+comparator_test comparator_test lookahead_design_testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7084 kB (elbread=1281 elab2=5664 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:56 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# 9 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: ERROR  : comparator output is incorrect
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /comparator_test/G3,  Process: line__287.
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7084 kB (elbread=1281 elab2=5664 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  6:57 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 6000 ns
+# EXECUTION:: ERROR  : comparator output is incorrect
+# EXECUTION:: Time: 3100 ns,  Iteration: 0,  Instance: /comparator_test/G3,  Process: line__287.
+# KERNEL: stopped at time: 7 us
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7084 kB (elbread=1281 elab2=5664 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  7:00 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+run 6000 ns
+# EXECUTION:: ERROR  : comparator output is incorrect
+# EXECUTION:: Time: 3100 ns,  Iteration: 0,  Instance: /comparator_test/G3,  Process: line__287.
+# KERNEL: stopped at time: 6200 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7084 kB (elbread=1281 elab2=5664 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Mutaz Hmaid\Desktop\3rdyear-sm1\advanced digital - ENCS3310\projects\active-hdl-project-files\project1\comparator_8bit\src\wave.asdb
+#  7:01 PM, Sunday, December 26, 2021
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/TestA' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/TestB' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/Expected_F1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/Expected_F2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/Expected_F3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/actual_F1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/actual_F2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/comparator_test/actual_F3' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/wave.asdb'.
+run 6000 ns
+# EXECUTION:: ERROR  : comparator output is incorrect
+# EXECUTION:: Time: 3100 ns,  Iteration: 0,  Instance: /comparator_test/G3,  Process: line__287.
+# KERNEL: stopped at time: 6 us
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/file1.vhd $dsn/src/file2.vhd $dsn/src/file3.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file1.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file2.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/file3.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work comparator_8bit -2002  $dsn/src/basic_logic_gates.vhd $dsn/src/stage1.vhd $dsn/src/stage2.vhd $dsn/src/basic_gates_with_delay_package.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_logic_gates.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "behavioral_delay" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "behavioral_delay" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "behavioral_delay" of Entity "or3_gate"
+# Compile Entity "or8_gate"
+# Compile Architecture "behavioral_delay" of Entity "or8_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "behavioral_delay" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "behavioral_delay" of Entity "nor_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor_gate"
+# Compile Entity "xor3_gate"
+# Compile Architecture "behavioral_delay" of Entity "xor3_gate"
+# Compile Entity "inverter"
+# Compile Architecture "behavioral_delay" of Entity "inverter"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/stage1.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "structural" of Entity "full_adder"
+# Compile Entity "partial_full_adder"
+# Compile Architecture "structural" of Entity "partial_full_adder"
+# Compile Entity "adder8bit"
+# Compile Architecture "ripple_adder_subtractor" of Entity "adder8bit"
+# Compile Architecture "look_ahead_adder_subtractor" of Entity "adder8bit"
+# Compile Entity "sub_res_comparator"
+# Compile Architecture "structural" of Entity "sub_res_comparator"
+# Compile Entity "signed_comparator_8bit"
+# Compile Architecture "ripple_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "lookahead_design" of Entity "signed_comparator_8bit"
+# Compile Entity "test_generator"
+# Compile Architecture "tg" of Entity "test_generator"
+# Compile Entity "result_analyzer"
+# Compile Architecture "ra" of Entity "result_analyzer"
+# Compile Entity "comparator_test"
+# Compile Architecture "ripple_design_testbench" of Entity "comparator_test"
+# Compile Architecture "lookahead_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/stage2.vhd
+# Compile Entity "magnitude_comparator_1bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_1bit"
+# Compile Entity "magnitude_comparator_7bit"
+# Compile Architecture "structural" of Entity "magnitude_comparator_7bit"
+# Compile Architecture "magnitude_comparator_design" of Entity "signed_comparator_8bit"
+# Compile Architecture "magnitudeComparator_design_testbench" of Entity "comparator_test"
+# File: C:/Users/Mutaz Hmaid/Desktop/3rdyear-sm1/advanced digital - ENCS3310/projects/active-hdl-project-files/project1/comparator_8bit/src/basic_gates_with_delay_package.vhd
+# Compile Package "basic_gates_with_delay"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]

@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=comparator_8bit
+
+[Library]
+comparator_8bit=.\comparator_8bit\comparator_8bit.lib
+
+[$LibMap$]
+comparator_8bit=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=adder8bit|ripple_adder_subtractor|0 comparator_test|lookahead_design_testbench|0 full_adder|structural|0 partial_full_adder|structural|0 signed_comparator_8bit|lookahead_design|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/basic_logic_gates.vhd=-1
+/stage1.vhd=-1
+/stage2.vhd=-1
+/basic_gates_with_delay_package.vhd=-1
+
+[Files.Data]
+.\src\basic_logic_gates.vhd=VHDL Source Code
+.\src\stage1.vhd=VHDL Source Code
+.\src\stage2.vhd=VHDL Source Code
+.\src\basic_gates_with_delay_package.vhd=VHDL Source Code
+

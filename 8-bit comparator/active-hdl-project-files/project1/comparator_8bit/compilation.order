@@ -1,0 +1,4 @@
+.\src\basic_logic_gates.vhd
+.\src\stage1.vhd
+.\src\stage2.vhd
+.\src\basic_gates_with_delay_package.vhd

@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+comparator_8bit=.\comparator_8bit\comparator_8bit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+comparator_8bit=1

@@ -1,0 +1,6 @@
+system ENTITY
+nand_gate ENTITY
+xnor_gate ENTITY
+or_gate ENTITY
+nor_gate ENTITY
+inverter ENTITY
