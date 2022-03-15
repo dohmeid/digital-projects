@@ -1,4 +1,4 @@
-8-bit Comparator for signed 2’s complement representation numbers
+# 8-bit Comparator for signed 2’s complement representation numbers
 ********************************************************************
 This project illustrates the design and the functional verification of an 8-bit Comparator for signed 2’s complement representation numbers.
 The implementation of the circuit was done using two different stages. 
